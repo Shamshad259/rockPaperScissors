@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 3rem;
+}
+
+header{
+    background-color: rgb(128, 0, 255);
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+.choices{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.choice1{
+    margin: 10px;
+}
+
+.choice1 button{
+    height: 50px;
+    width: 100px;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yourScore,.compScore{
+    margin: 30px;
+    font-size: 2rem;
+}
+
+.msgBox{
+    font-size: 2rem;
+}
+
+.msgBox p{
+    background-color: rgb(255, 251, 0);
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
